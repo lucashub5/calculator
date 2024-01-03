@@ -87,3 +87,19 @@ main {
     font-weight: bold !important;
     color: white !important;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .container-main {
+        width: 370px;
+    }
+
+    .container-button button {
+        width: 80px;
+    }
+
+    .result {
+        width: 170px !important;
+    }
+
+}

@@ -64,16 +64,15 @@ main {
 
 .container-button button {
     flex: 1 0 calc(25% - 10px);
-    box-sizing: 20px;
     margin: 2px;
     border-radius: 10px;
     border: none;
     background: rgb(210, 224, 251);
-    
+    box-sizing: border-box;   
 }
 
 .container-button button:active {
-    border: 1px solid rgb(155, 160, 148);
+    outline: 1px solid rgb(155, 160, 148);
     box-shadow: 0 0 10px rgba(215, 229, 202, 0.7);
 }
 

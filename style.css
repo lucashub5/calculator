@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'ptsans';
+    src: url('PTSans-Regular.ttf');
+}
+
+* {
+    margin: 0px;
+    font-family: 'ptsans';
+    color: rgb(38, 45, 46);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-main {
+    width: 400px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container-result {
+    width: 100%;
+    height: 70px;
+    border: 1px solid rgb(215, 229, 202);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 5px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.result-text {
+    height: 17px;
+}
+
+.current-text {
+    height: 25px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.container-button {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-button button {
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(210, 224, 251);
+    
+}
+
+.container-button button:active {
+    border: 1px solid rgb(155, 160, 148);
+    box-shadow: 0 0 10px rgba(215, 229, 202, 0.7);
+}
+
+.number {
+    background: rgb(215, 229, 202) !important;
+}
+
+.result {
+    width: 186px !important; 
+    background: rgb(142, 172, 205) !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: white !important;
+}

@@ -63,8 +63,9 @@ main {
 }
 
 .container-button button {
-    width: 90px;
-    height: 45px;
+    flex: 1 0 calc(25% - 10px);
+    box-sizing: 20px;
+    margin: 2px;
     border-radius: 10px;
     border: none;
     background: rgb(210, 224, 251);
@@ -81,7 +82,7 @@ main {
 }
 
 .result {
-    width: 186px !important; 
+    flex: 2 0 calc(48% - 10px) !important;
     background: rgb(142, 172, 205) !important;
     font-size: 20px !important;
     font-weight: bold !important;
@@ -92,16 +93,12 @@ main {
 @media only screen and (max-width: 600px) {
     .container-main {
         width: 100%;
-    }
-
-    .container-button button {
-        flex: 1 1 80px;
-        width: auto;
-        margin: 2px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .result {
-        flex: 1 1 168px !important; 
+        flex: 1 0 calc(25% - 10px);
     }
 
 }

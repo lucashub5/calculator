@@ -84,7 +84,6 @@ main {
 .result {
     flex: 2 0 calc(48% - 10px) !important;
     background: rgb(142, 172, 205) !important;
-    font-size: 20px !important;
     font-weight: bold !important;
     color: white !important;
 }
